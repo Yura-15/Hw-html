@@ -1,0 +1,11 @@
+.boxes{
+    background-color: silver;
+    justify-content: flex-start;
+    font-size: 40px;
+}
+.red{
+    background-color: silver;
+    font-size: 40px;
+    justify-content: flex-start;
+    color: red;
+}
