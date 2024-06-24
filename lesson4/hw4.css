@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.q{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+p{
+    align-content: center;
+}
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.three{
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.four{
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.five{
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
