@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.active{
+    color: black;
+}
+header {
+    font-family: "Orbitron", sans-serif;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    width: 60%;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #868181;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover{
+    color: #051c13;
+    transition: 1s;
+}
+header div{
+    text-align: center;
+}
+section{
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url("img.jpg") ;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.one{
+    margin-top: 10vh;
+}
+section p{
+    font-size: 20px;
+}
+section h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 15px;
+}
+section button{
+    background-color: #051c13;
+    width:200px ;
+    height: 50px ;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    transition: 1s ;
+}
+section button:hover{
+    transition: 1s ;
+    transform: scale(1.1);
+}
+.two{
+    height: 20vh;
+    font-size: 25px;
+    background-image: url("img.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h3{
+    font-family: "Orbitron", sans-serif;
+    margin-top: 30px;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+h4{
+    font-size: 35px;
+    color: cornflowerblue;
+}
+h5{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("img.jpg");
+    background-size: cover;
+}
+.four{
+    font-family: "Orbitron", sans-serif;
+    height: 60vh;
+    width: 40vw;
+    margin: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.five a{
+    text-decoration: none;
+    color: #81714d;
+    font-size: 30px;
+}
+.five p{
+    height: 10vh;
+    width: 20vw;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 10%;
+}
+.six{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+
+}
+.all{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 200px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 20px;
+
+
+}
