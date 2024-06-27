@@ -41,7 +41,7 @@ header div{
 section{
     font-family: "Orbitron", sans-serif;
     height: 90vh;
-    background-image: url("../img.jpg") ;
+    background-image: url("img.jpg") ;
     background-size: cover;
     display: flex;
     justify-content: flex-start;
@@ -76,7 +76,7 @@ section button:hover{
 .two{
     height: 20vh;
     font-size: 25px;
-    background-image: url("../img.jpg");
+    background-image: url("img.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ h5{
 .three{
     display: flex;
     justify-content: space-around;
-    background-image: url("../img.jpg");
+    background-image: url("img.jpg");
     background-size: cover;
 }
 .four{
