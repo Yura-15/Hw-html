@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            width: 15vw;
+            height: 30vh;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+        }
+        input{
+            display: block;
+            height: 3vh;
+            width: 14vw;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        button{
+            width: 15vh;
+            height: 3vh;
+            margin: 0 0 20px 140px;
+            border: orange solid 3px;
+            border-radius: 5px ;
+        }
+        h2{
+        margin: 20px 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+<main>
+<div>
+    <h2>New To Twitter? Sign Up</h2><hr>
+    <form>
+        <input type="text" name="username"  placeholder="Full name">
+        <input type="email" name="email"  placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+    </form>
+    <button><b>Sign up for Twitter</b></button>
+</div>
+</main>
+</body>
+</html>
