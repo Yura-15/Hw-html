@@ -11,19 +11,19 @@
             height: 100vh;
             display: flex;
         }
-        .two ul li:nth-child(odd){
+        .two>ul>li:nth-child(even){
             color: pink;
         }
-        .three ul li:nth-child(even){
+        .three>ul>li:nth-child(odd){
             font-size: 22px;
         }
-        .four ul li:nth-child(2n+4):after{
-            content:"!";
+        .four>ul>li:nth-child(2n+4):after{
+            content: "!";
         }
-        .five ul li:last-child{
-            color: #b60fb6;
+        .five>ul>li:last-of-type{
+            color: #b506b5;
         }
-        .six li:first-letter{
+        .six>ul>li:first-letter{
             font-size: 30px;
             color: red;
         }
