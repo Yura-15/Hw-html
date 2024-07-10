@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background: lightcoral;
+            animation: preloader 2s ease-in-out infinite alternate;
+        }
+        @keyframes preloader{
+            0%{
+                background: lightcoral;
+                transform:rotate(360deg);
+            }
+            50%{
+                background: magenta;
+                transform: rotate(-180deg);
+                border-radius: 50%;
+            }
+            70%{
+                background: red;
+                transform: scale(0.6, 0.8);
+            }
+            100%{
+                background: lightcoral;
+                transform: skewX(20deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="preloader"></div>
+</body>
+</html>
