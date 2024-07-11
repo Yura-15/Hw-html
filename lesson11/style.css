@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F5F5F7;
+}
+nav{
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+header{
+    background: rgba(245, 245, 247, 0.60);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    animation: head 0.5s ease-in 1s;
+}
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+span{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: "Inter" ,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+}
+section{
+    margin: 0 auto 0 auto;
+    width: 1440px;
+    height: 903px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+img{
+    animation: img 1.8s ease-in 1s;
+}
+section h2{
+    width: 1039px;
+    height: 67px;
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; /* 100% */
+    letter-spacing: -1.44px;
+    animation: p 1.8s ease-in 1s;
+}
+section p{
+    width: 975px;
+    height: 112px;
+    color: #86868B;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    animation: p 1.8s ease-in 1s;
+}
+@keyframes head {
+0%{
+    transform: translateX(350px);
+}
+    100%{transform: translatey(0);
+    }
+}
+@keyframes img {
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+}
+@keyframes p  {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+
+
+
+
