@@ -17,7 +17,7 @@ ul{
 }
 a{
     font-family: "Roboto", sans-serif;
-    color: black;
+    /*color: black;*/
     font-weight: 400;
     text-decoration: none;
 }
@@ -40,9 +40,8 @@ img{
     flex-direction: column;
 }
     h3 {
-        color: #000;
+        color: black;
         -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: #000;
         font-family: "Roboto", sans-serif;
         font-size: 48px;
         font-weight: 400;
@@ -83,4 +82,42 @@ img{
         font-size: 18px;
         font-weight: 400;
     }
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.second{
+    background-color: rgba(83, 83, 83, 0.40);
+    width: 285px;
+    height: 331px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+img{
+    margin: 20px 20px;
+}
+.p{
+    text-align: center;
+    font-family: Inter sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.three{
+    color:  #106FDF;
+    font-family: Inter sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
 
