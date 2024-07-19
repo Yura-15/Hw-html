@@ -10,16 +10,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1400px;
-    margin: 0 auto;
+    width: 100vw;
     height: 113px;
     position: fixed;
-    right: 0;
-    left: 0;
+    background: #24204A;
+    box-shadow: 10px 20px 50px 0 rgba(0, 0, 0, 0.25);;
 }
 ul {
-    width: 100%;
-    margin-top: 51px;
+    width: 1400px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -65,7 +63,6 @@ p{
     flex-direction: column;
 }
 .first{
-    text-align: center;
     width: 145px;
     height: 50px;
     flex-shrink: 0;
@@ -79,16 +76,18 @@ p{
     line-height: 130%; /* 20.8px */
     letter-spacing: 1px;
 }
-.third{
-    width: 570px;
-    height: 85px;
-    color: var( #8E88C1);
-    font-family: Inter, sans-serif;
+.uno button:first-child{
+    width: 145px;
+    height: 41px;
+    color: var(--1, #8E88C1);
+    font-family: Inter,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 130%; /* 20.8px */
-    letter-spacing: 1px;
+    line-height: 130%;
+    letter-spacing: 0.8px;
+    border-radius: 8px;
+    background: #4B4864;
 }
 .second{
     width: 573px;
@@ -205,18 +204,18 @@ main{
     height: 206px;
     background: #071341;
     border-radius: 8px;
-    border: 2px solid var(--1, #8E88C1);
+    border: 2px solid var(#8E88C1);
 }
 .el p{
-    margin-left: 70px;
     text-align: center;
     width: 178px;
+    height: 20px;
     color: var( #8E88C1);
     font-family: Inter,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
     letter-spacing: 0.8px;
 }
 iframe{
@@ -240,4 +239,6 @@ footer{
     height: 94px;
     flex-shrink: 0;
 }
+
+
 
