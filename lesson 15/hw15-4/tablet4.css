@@ -1,0 +1,20 @@
+@media screen and (min-width:720px ) and (max-width: 1020px){
+img{
+    width: 218px;
+    height: 164px;
+}
+    main{
+        display: flex;
+        width: 768px;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    div{
+        margin: 32px auto;
+        height: 250px;
+    }
+    h3{
+        width: 218px;
+    }
+
+}

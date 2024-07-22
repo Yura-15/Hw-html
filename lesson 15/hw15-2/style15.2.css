@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    background: lightseagreen;
+    color: white;
+}
+header{
+    height: 25vh;
+    background: lightseagreen;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.one{
+    margin-top: 10px;
+    height: 20vh;
+    text-align: right;
+    padding: 10px;
+    width: 49vw;
+    background: lightseagreen;
+    margin-bottom: 1vh;
+}
+footer{
+    height: 30vh;
+    background: lightseagreen;
+}
