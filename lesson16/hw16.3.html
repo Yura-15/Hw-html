@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    div{
+         height: 100vh;
+         display: grid;
+         grid-template-rows: 1fr 0.5fr 0.5fr 1fr 1fr;
+         grid-template-columns: 3fr 1fr 1fr ;
+        grid-template-areas:
+            "header header header"
+            "section section aside"
+            "section section aside"
+            "section section address"
+            "footer footer footer";
+
+    }
+    section:last-of-type{
+        background:  #441818;;
+    }
+    header{
+    grid-area: header;
+    }
+    section{
+    grid-area: section;
+    }
+    main{
+    grid-area: main;
+    }
+    aside{
+    grid-area: aside;
+    }
+    footer{
+    grid-area: footer;
+    }
+    address{
+    grid-area: address;
+    }
+    header{
+        display: flex;
+        background: #8D8484;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        background: #BDBDBD;
+    }
+    section{
+        background: #776969;
+    }
+    aside{
+        background: #937575;
+    }
+    address{
+        background: #644C4C;
+    }
+
+    </style>
+</head>
+<body>
+<div>
+    <header>Header</header>
+    <section>Content - 1</section>
+    <main></main>
+    <aside></aside>
+    <aside></aside>
+    <address></address>
+    <footer></footer>
+
+</div>
+
+</body>
+</html>
