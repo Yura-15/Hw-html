@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #02061A;
+}
+.circle{
+    width: 590px;
+    height: 594px;
+    fill: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
+    position: absolute;
+    top: -245px;
+    left: -103px;
+}
+header{
+    display: flex;
+    width: 1061px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 554px;
+    margin: 40px auto ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+div h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+main{
+    margin: 188px auto 0 auto;
+    width: 1035.156px;
+    height: 497.999px;
+    display: flex;
+}
+.one h4{
+    margin-top: 138px;
+    width: 522px;
+    height: 233px;
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+main button:first-of-type{
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    background: #23263C;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+main button:last-of-type {
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background: none;
+    margin-left: 22px;
+}
+main button p{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+main img{
+    width: 467.417px;
+    height: 461.312px;
+    border-radius: 10px;
+    background: url(2/image1.png)  lightgray 19.479px 8.283px/ 96.217% 93.664% no-repeat;
+    box-shadow: 24px 19px 40px 0 #56CAB1;
+}
+.two{
+    margin: 217px auto 0 auto;
+    width: 1080px;
+    height: 171px;
+}
+.two h4{
+    width: 238px;
+    height: 38px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.two .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 1065px;
+    height: 125px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+}
+.nav a{
+    opacity: 0.5;
+    margin-top: 46px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section{
+    margin:197px auto 0 auto;
+    width: 1085px;
+    display: flex;
+}
+.first{
+    width: 428px;
+    height: 480px;
+}
+.text{
+    margin-left: 35px;
+    position: relative;
+}
+.text h4{
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+h4 p{
+    color: #56CAB1;
+    font-family: Outfit,sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: left;
+}
+.text h5{
+    width: 521px;
+    color: #4C99BB;
+    font-family: Poppins,sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+.text h5:last-of-type{
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text button:first-of-type{
+    position: absolute;
+    z-index: 1;
+    top: 395px;
+    left: 5px;
+}
+.text button{
+    width: 126px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background: none;
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    z-index: -1;
+}
+.text div{
+    align-items: center;
+    width: 521px;
+    height: 132px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+    border-radius: 18px;
+    background: #3A5B6A;
+
+}
+.text div h5,p{
+    text-align: center;
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text div p{
+    margin-top: 18px;
+}
+.second{
+    width: 1059px;
+    height: 728.615px;
+    margin: 150px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.three h4{
+    align-items: flex-end;
+    width: 465px;
+    height: 212px;
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.second .three button{
+    margin: 53px 0 0 0;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #56CAB1;
+    font-family: Outfit,sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.image h6{
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    mix-blend-mode: screen;
+    width: 225.81px;
+    height: 46.022px;
+    transform: rotate(-25.337deg);
+    flex-direction: column;
+    justify-content: center;
+    color: #56CAB1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit,sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+ .image{
+
+     background-image: url("2/dcf8.png");
+     width: 380.311px;
+     height: 466.66px;
+     transform: rotate(-25.337deg);
+     flex-shrink: 0;
+     border-radius: 10px;
+
+     mix-blend-mode: screen;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.image img:first-of-type{
+    position: absolute;
+    width: 380.121px;
+    height: 323.047px;
+    transform: rotate(-25.689deg);
+   right: 300px;
+}
+.image img:last-of-type{
+    position: absolute;
+}
+
+
+
+
+.four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 234px  auto 0 auto;
+    width: 1063px;
+    height: 701px;
+
+}
+.four h4{
+    display: block;
+    margin-top: 20px ;
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.four h3{
+    color: #5BD2BF;
+    font-family: Outfit,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.four div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    border-radius: 10px;
+    background: #24293F;
+    width: 345px;
+    height: 360px;
+    position: relative;
+}
+.four div h5{
+    width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.four div p{
+    width: 302px;
+    color: #FFF;
+    margin-top: 27px;
+    font-family: Outfit,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.four div img{
+    background: url(2/images1.png)  lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+    width: 155.375px;
+    height: 150px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -90px;
+}
+
+
+
+
+
